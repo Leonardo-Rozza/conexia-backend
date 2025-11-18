@@ -1,0 +1,12 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/conexia_db
+spring.datasource.username=Tu user
+spring.datasource.password=tu pass
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+# Server Configuration
+server.port=8080
